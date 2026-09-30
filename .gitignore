@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+
+# Variáveis de ambiente
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Chaves
+*.pem
+
+# Sistema / Editor
+.DS_Store
+.vscode/
