@@ -1,0 +1,57 @@
+[
+    {
+        "Nome": "technova-ec2-sg",
+        "ID": "sg-05e5d1e0eee240c67",
+        "Ingress": [
+            {
+                "IpProtocol": "tcp",
+                "FromPort": 22,
+                "ToPort": 22,
+                "UserIdGroupPairs": [],
+                "IpRanges": [
+                    {
+                        "Description": "SSH",
+                        "CidrIp": "0.0.0.0/0"
+                    }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": []
+            },
+            {
+                "IpProtocol": "tcp",
+                "FromPort": 3000,
+                "ToPort": 3000,
+                "UserIdGroupPairs": [],
+                "IpRanges": [
+                    {
+                        "Description": "API TechNova",
+                        "CidrIp": "0.0.0.0/0"
+                    }
+                ],
+                "Ipv6Ranges": [],
+                "PrefixListIds": []
+            }
+        ]
+    },
+    {
+        "Nome": "technova-rds-sg",
+        "ID": "sg-003b99ca6b96d326f",
+        "Ingress": [
+            {
+                "IpProtocol": "tcp",
+                "FromPort": 5432,
+                "ToPort": 5432,
+                "UserIdGroupPairs": [
+                    {
+                        "Description": "PostgreSQL somente pela EC2",
+                        "UserId": "864685606443",
+                        "GroupId": "sg-05e5d1e0eee240c67"
+                    }
+                ],
+                "IpRanges": [],
+                "Ipv6Ranges": [],
+                "PrefixListIds": []
+            }
+        ]
+    }
+]

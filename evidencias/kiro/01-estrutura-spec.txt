@@ -1,0 +1,4 @@
+.kiro/specs/api-reservas-technova/.config.kiro
+.kiro/specs/api-reservas-technova/design.md
+.kiro/specs/api-reservas-technova/requirements.md
+.kiro/specs/api-reservas-technova/tasks.md

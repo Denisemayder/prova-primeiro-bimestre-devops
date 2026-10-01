@@ -1,0 +1,56 @@
+ Image prova-primeiro-bimestre-devops-api Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 580B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 369B 0.0s done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/node:20-alpine
+#3 DONE 6.3s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 70B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 1.59kB done
+#5 DONE 0.0s
+
+#6 [deps 1/4] FROM docker.io/library/node:20-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293
+#6 resolve docker.io/library/node:20-alpine@sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293 0.0s done
+#6 DONE 0.0s
+
+#7 [deps 2/4] WORKDIR /app
+#7 CACHED
+
+#8 [deps 4/4] RUN npm ci --omit=dev
+#8 CACHED
+
+#9 [runner 3/5] COPY --from=deps /app/node_modules ./node_modules
+#9 CACHED
+
+#10 [deps 3/4] COPY package*.json ./
+#10 CACHED
+
+#11 [runner 4/5] COPY package.json ./
+#11 CACHED
+
+#12 [runner 5/5] COPY src ./src
+#12 DONE 0.0s
+
+#13 exporting to image
+#13 exporting layers 0.1s done
+#13 exporting manifest sha256:21ffe33817c2ef95a7eb2a5a342ce0d1813acb441b122b54f84a148eba156a8f done
+#13 exporting config sha256:8335eea21966fdd5b226cbf3fd482c39b7a2dffb2b18fa08b1e9fcef7f5e0883 done
+#13 exporting attestation manifest sha256:8bc88c11ff76ee015a3119a0677962f469ef1fa144f4d8fac64a16e3b98fe413
+#13 exporting attestation manifest sha256:8bc88c11ff76ee015a3119a0677962f469ef1fa144f4d8fac64a16e3b98fe413 0.0s done
+#13 exporting manifest list sha256:c7eaaab69cc7e9055cea444da7052e241c3f066d6b76d016af57cecf77354d06 done
+#13 naming to docker.io/library/prova-primeiro-bimestre-devops-api:latest done
+#13 unpacking to docker.io/library/prova-primeiro-bimestre-devops-api:latest 0.0s done
+#13 DONE 0.2s
+
+#14 resolving provenance for metadata file
+#14 DONE 0.0s
+ Image prova-primeiro-bimestre-devops-api Built 

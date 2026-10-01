@@ -1,0 +1,8 @@
+api_url = "http://100.48.100.16:3000"
+ec2_public_ip = "100.48.100.16"
+rds_endpoint = "technova-postgres.cnrmx5hhbunx.us-east-1.rds.amazonaws.com:5432"
+[33m╷[0m[0m
+[33m│[0m [0m[1m[33mWarning: [0m[0m[1mDeprecated Parameter[0m
+[33m│[0m [0m
+[33m│[0m [0m[0mThe parameter "dynamodb_table" is deprecated. Use parameter "use_lockfile" instead.
+[33m╵[0m[0m

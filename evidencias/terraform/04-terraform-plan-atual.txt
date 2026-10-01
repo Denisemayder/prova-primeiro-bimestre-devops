@@ -1,0 +1,25 @@
+
+Warning: Deprecated Parameter
+
+The parameter "dynamodb_table" is deprecated. Use parameter "use_lockfile" instead.
+Acquiring state lock. This may take a few moments...
+module.vpc.aws_vpc.main: Refreshing state... [id=vpc-0dcc8e32d6fb72cac]
+module.vpc.aws_internet_gateway.main: Refreshing state... [id=igw-04ab5c4b9e70279ac]
+module.vpc.aws_subnet.private[0]: Refreshing state... [id=subnet-0cb24775c251efd33]
+module.vpc.aws_subnet.private[1]: Refreshing state... [id=subnet-03c56304393fb1d13]
+module.vpc.aws_subnet.public[1]: Refreshing state... [id=subnet-0ba56fd05a760123b]
+module.vpc.aws_subnet.public[0]: Refreshing state... [id=subnet-059a9cb319ac43f9b]
+module.security_group.aws_security_group.ec2: Refreshing state... [id=sg-05e5d1e0eee240c67]
+module.vpc.aws_route_table.public: Refreshing state... [id=rtb-02665f9e6e8b8856f]
+module.rds.aws_db_subnet_group.main: Refreshing state... [id=technova-db-subnet-group]
+module.security_group.aws_security_group.rds: Refreshing state... [id=sg-003b99ca6b96d326f]
+module.ec2.aws_instance.main: Refreshing state... [id=i-0f567beda4f237ca2]
+module.vpc.aws_route_table_association.public[0]: Refreshing state... [id=rtbassoc-06d459da8ea4adfe5]
+module.vpc.aws_route_table_association.public[1]: Refreshing state... [id=rtbassoc-05eecc7de42addc3c]
+module.rds.aws_db_instance.main: Refreshing state... [id=db-PI4VKTNJIJFOKWDKHIPXVTRSIQ]
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
+Releasing state lock. This may take a few moments...

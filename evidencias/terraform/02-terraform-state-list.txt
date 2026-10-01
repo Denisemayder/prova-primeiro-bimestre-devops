@@ -1,0 +1,14 @@
+module.ec2.aws_instance.main
+module.rds.aws_db_instance.main
+module.rds.aws_db_subnet_group.main
+module.security_group.aws_security_group.ec2
+module.security_group.aws_security_group.rds
+module.vpc.aws_internet_gateway.main
+module.vpc.aws_route_table.public
+module.vpc.aws_route_table_association.public[0]
+module.vpc.aws_route_table_association.public[1]
+module.vpc.aws_subnet.private[0]
+module.vpc.aws_subnet.private[1]
+module.vpc.aws_subnet.public[0]
+module.vpc.aws_subnet.public[1]
+module.vpc.aws_vpc.main

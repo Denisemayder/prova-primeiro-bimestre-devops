@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                                       NAMES
+dcef49fac5f0   technova-api   "docker-entrypoint.s…"   36 minutes ago   Up 36 minutes   0.0.0.0:3000->3000/tcp, :::3000->3000/tcp   technova-api

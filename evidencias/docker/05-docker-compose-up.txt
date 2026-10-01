@@ -1,0 +1,4 @@
+ Container technova-api Running 
+ Container technova-db Running 
+ Container technova-db Waiting 
+ Container technova-db Healthy 

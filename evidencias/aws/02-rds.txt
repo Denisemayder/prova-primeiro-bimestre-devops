@@ -1,0 +1,12 @@
+------------------------------------------------------------------------------
+|                             DescribeDBInstances                            |
++------------+---------------------------------------------------------------+
+|  Class     |  db.t3.micro                                                  |
+|  Encrypted |  True                                                         |
+|  Endpoint  |  technova-postgres.cnrmx5hhbunx.us-east-1.rds.amazonaws.com   |
+|  Engine    |  postgres                                                     |
+|  Identifier|  technova-postgres                                            |
+|  Public    |  False                                                        |
+|  Status    |  available                                                    |
+|  Version   |  16.13                                                        |
++------------+---------------------------------------------------------------+
