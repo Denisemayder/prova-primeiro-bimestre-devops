@@ -1,0 +1,10 @@
+{
+    "TableName": "technova-terraform-locks",
+    "TableStatus": "ACTIVE",
+    "KeySchema": [
+        {
+            "AttributeName": "LockID",
+            "KeyType": "HASH"
+        }
+    ]
+}
